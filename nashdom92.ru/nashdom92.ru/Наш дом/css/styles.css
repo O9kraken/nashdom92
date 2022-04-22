@@ -1,0 +1,489 @@
+/*Default CSS*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+	font-family: Lato;
+}
+
+div, p, a, img, form, button {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+span {
+	color: #4578d1;
+}
+
+header {
+
+}
+
+.header {
+	
+}
+
+.block {
+	z-index: 1;
+	width: 100%;
+	height: 89px;
+	background-color: #ebebeb;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li {
+
+	margin-right: 35px;
+}
+
+.menu li a {
+	font-size: 20px;
+	color: #000;
+	padding: 12px 0;
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+	color: #4578d1;
+	border-top: 1px solid #4578d1;
+	border-bottom: 1px solid #4578d1;
+}
+
+div.kab {
+
+}
+.kab {
+	display: flex;
+	margin-left: auto;
+}
+
+.kab li a {
+	font-size: 20px;
+	color: #000;
+	padding: 12px 0;
+	margin-right: 60px;
+	transition: all 0.5s ease;
+}
+
+.kab li a:hover {
+	font-size: 21px;
+	color: #000;
+	padding: 12px 0;
+	margin-right: 60px;
+	transition: all 0.5s ease;
+}
+
+.kab li a img {
+    background-image: url(../images/lkab.png); 
+    width:32px; 
+    height:32px; 
+    display:inline-block;
+    vertical-align:bottom;
+	transition: all 0.5s ease;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left:41px;
+	width: 122px;
+	height: 89px;
+	transition: all 0.5s ease;
+}
+
+
+
+.navbar {
+
+    top: 0;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 89px;
+	background-color: #ebebeb;
+}
+
+.nav {
+	box-shadow: 0 0 20px 0;
+	display: flex;
+	align-items: center;
+}
+
+.nav-infom {
+	margin-left: 89px;
+    align-items: center;
+	display: flex;
+}
+
+.nav-infom ul {
+	margin: 0;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav-infom p {
+	margin-right: 130px;
+	margin: 0 130px 0 0;
+	padding: 0;
+	font-size: 17px;
+	letter-spacing: -0.53px;
+	text-align: left;
+	color: #ffffff;
+}
+
+.nav-infom img:nth-of-type(1) {
+	margin-right: 8px; 
+	width: 11px;
+	height: 15px;
+}
+
+.nav-infom img:nth-of-type(2) {
+	margin-right: 8px; 
+	width: 11px;
+	height: 15px;
+}
+
+.nav-infom img:nth-of-type(3) {
+	margin-right: 8px; 
+	width: 11px;
+	height: 15px;
+}
+
+.nav-info {
+	margin-top: 89px;
+	font-family: Consolas;
+    align-items: center;
+	display: flex;
+	background-color: #545454;
+	width: 100%;
+	height: 33px;
+}
+
+.main {
+    text-align: center;
+	width: 100%;
+	height: 991px;
+	vertical-align: middle;
+	background: url(../images/Houses.jpg);
+	background-size: cover;
+    box-shadow: 0 0 20px 0;
+
+}
+
+.main h1 {
+	padding: 440px 0;
+	margin: 0 auto;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.9px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.toggle {
+	margin: 0 auto;
+}
+
+.toggle h1 {
+    margin: 37px 32px 20px 32px;
+	font-family: Lato;
+	font-size: 21px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.63px;
+	text-align: center;
+	color: #000000;
+  	padding: 24px 0;
+  	border-top: 1px solid #4578d1;
+	border-bottom: 1px solid #4578d1;
+}
+
+
+.toggle p {
+	font-family: lato;
+	font-size: 21px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.63px;
+	text-align: center;
+	color: #10509a;
+}
+
+.map {
+	margin-left: 260px;
+}
+
+.info {
+	display: flex;
+
+}
+
+.info1 {
+	margin-top: 65px;
+	margin-left: 130px;
+	width: 100%;
+	height: 500px;
+
+}
+
+.info h2 {
+
+	font-family: Lato;
+	font-size: 18.5px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.56px;
+	text-align: center;
+	color: #10509a;
+
+}
+
+.info p {
+	font-family: Consolas;
+	font-size: 21px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.63px;
+	text-align: center;
+	color: #000000;
+}
+
+.info img {
+	margin-top: 80px;
+	margin-left: 106px;
+	width: 750px;
+	height: 450px;
+}
+
+.cherta {
+	margin: 120px 37px 55px 37px;
+	width: auto;
+	height: 1px;
+	background-color: #4578d1;
+}
+
+.links {
+	font-family: Lato;
+	font-size: 27.5px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.83px;
+	text-align: center;
+	color: #10509a;
+	border-bottom: 1px solid #4578d1;
+}
+
+.links img {
+	margin-right: 100px;
+}
+
+.footer {
+	display: flex;
+	font-family: Lato;
+	width: 100%;
+	height: 482px;
+	background-color: #545454;
+}
+
+.footer h2 {
+	margin-top: 60px;
+	margin-left: 22px;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: -0.6px;
+	color: #ffffff;
+}
+
+.footer h2 p {
+	text-transform: none;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.39px;
+	text-align: left;
+	color: #9e9d9d;
+}
+
+.footer div {
+	margin-left: auto;
+}
+
+.con {
+    margin-bottom: 18px;
+}
+
+.contact {
+	margin-left: 22px;
+    align-items: center;
+	/*display: flex;*/
+}
+
+.contact li {
+    margin-bottom: 18px;
+	display: flex;
+}
+
+.contact ul {
+	margin: 0;
+	margin: 0;
+	padding: 0;
+	/*display: flex;*/
+}
+
+.contact p {
+	margin-right: 130px;
+	margin: 0 130px 0 0;
+	padding: 0;
+	font-size: 17px;
+	letter-spacing: -0.53px;
+	text-align: left;
+	color: #ffffff;
+}
+
+.contact img:nth-of-type(1) {
+	margin-right: 8px; 
+	width: 11px;
+	height: 15px;
+}
+
+.contact img:nth-of-type(2) {
+	margin-right: 8px; 
+	width: 11px;
+	height: 15px;
+}
+
+.contact img:nth-of-type(3) {
+	margin-right: 8px; 
+	width: 11px;
+	height: 15px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 360px; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+
+    width: 107px;
+	height: 39px;
+	border-radius: 10px;
+	background-color: #3da0f4;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	width: 107px;
+	height: 39px;
+	border-radius: 10px;
+	background-color: #4578d1;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	width: 400px;
+	height: 500px
+
+}
+
+.container h2 {
+	margin: 0;
+	margin-top: 60px;
+}
+
+
+
+.copyright {
+	padding: 35px 0 20px 30px;
+	width: 100%;
+	height: 68px;
+	background-color: #434343;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.39px;
+	text-align: left;
+	color: #7c7c7c;
+}
+
+
+
+#myBtn {
+	display: none;
+ 	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #4578d1;
+	color: white;
+	cursor: pointer;
+	padding: 15px 15px 12px 15px;
+	border-radius: 100px;
+    transition: all .5s ease;
+    box-shadow: 0px 0px 20px 1px;
+    color: #5f95f3;
+
+}
+
+#myBtn:hover {
+	background-color: #00cece;
+	color: cyan;
+}
+
+.top-button {
+    width: 30px;
+    height: 30px;
+}
+
+
